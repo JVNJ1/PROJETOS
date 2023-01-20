@@ -158,3 +158,8 @@ select {
     text-decoration: line-through;
     font-style: italic;
 }
+
+.todo he {
+    width: 15rem;
+    word-break: break-word;
+}
