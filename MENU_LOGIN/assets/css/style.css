@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@0,100;1,100&display=swap');
 
 :root {
-    --color-light-50: #f8fafc;
+    --color-test-0: #f8fafc;
 
-    --color-dark-50: #797984;
-    --color-dark-100: #312d37;
-    --color-dark-900: #000;
+    --color-test-50: #797984;
+    --color-test-100: #312d37;
+    --color-test-150: #000;
 
-    --color-purple-50: #5e5868;
-    --color-purple-100: #201e22;
-    --color-purple-200: #58485e;
+    --color-test-200: #5e5868;
+    --color-test-250: #201e22;
+    --color-test-300: #58485e;
 
-    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200))
+    --color-gradient: linear-gradient(90deg, var(--color-test-200), var(--color-test-250), var(--color-test-300))
 }
 
 
