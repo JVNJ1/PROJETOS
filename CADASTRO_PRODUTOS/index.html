@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--LINK ICONS-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>ESTOQUE</title>
+</head>
+<body>
+    <!--DIV PRINCIPAL-->
+    <div class="container">
+        <div class="header">
+            <span>Cadastro de Produtos</span>
+            <button onclick="openModal()" id="new">Incluir</i></button>
+        </div>
+
+        <div class="divTable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produtos</th>
+                        <th>Quantidade</th>
+                        <th>Valor</th>
+                        <th class="acao">Editar</th>
+                        <th class="acao">Excluir</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--JS-->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="modal-container">
+            <div class="modal">
+                <form>
+                    <label for="m-produto">Produto</label>
+                    <input type="text" id="m-produto" required>
+
+                    <label for="m-quantidade">Quantidade</label>
+                    <input type="text" id="m-quantidade" required>
+
+                    <label for="m-valor">Valor</label>
+                    <input type="text" id="m-valor">
+                    <button id="btnSalvar">Salvar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--LINK JS-->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
